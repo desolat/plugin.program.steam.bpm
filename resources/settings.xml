@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="71000">
+        <setting 
+            label="71001" 
+            type="folder" 
+            id="steam_install_folder" 
+            default="c:\Program Files (x86)\Steam" 
+            source="auto" />
+        <setting 
+            label="71002" 
+            type="text" 
+            id="username" 
+            default="" />
+        <setting 
+            label="71003" 
+            type="text" 
+            id="password" 
+            default="" 
+            option="hidden" 
+            enable="!eq(-1,)" />
+    </category>
+</settings>

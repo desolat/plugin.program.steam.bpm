@@ -1,0 +1,5 @@
+0.1
+
+Initial release: Steam gets opened in Big Picture Mode and correctly returns to XBMC on close. 
+Optionally the Steam username and password can be provided and if necessary the credentials are
+provided to Steam on startup.

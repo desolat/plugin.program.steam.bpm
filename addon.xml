@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    Icon: http://fc03.deviantart.net/fs70/f/2011/290/4/c/steam_icon_by_alucryd-d42xod6.png
+    Icon Source: http://alucryd.deviantart.com/art/Steam-Icon-246795162
+    Fanart: http://video.giga.de/data/steam-big-picture-mode.jpg
+    Fanart Source: http://www.giga.de/spiele/steam/specials/valves-big-picture-mode-die-uberfallige-revolution/
+ -->
+<addon
+    id="plugin.program.steam.bpm"
+    name="Steam BPM"
+    version="0.0.1"
+    provider-name="desolat">
+    <requires>
+        <import addon="xbmc.python" version="2.0" />
+    </requires>
+    <extension 
+        point="xbmc.python.pluginsource"
+        library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension 
+        point="xbmc.addon.metadata">
+	    <summary lang="en">Launch Steam Big Picture Mode</summary>
+	    <description lang="en">Steam gets opened in Big Picture Mode and correctly returns to XBMC 
+on close. Optionally the Steam username and password can be provided and if necessary the 
+credentials are provided to Steam on startup.</description>
+	    <language>en</language>
+	    <platform>windx wingl</platform>
+	    <license lang="en">GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>

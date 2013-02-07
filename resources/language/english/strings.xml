@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+    <string id="7100"></string>
+    <string id="71000">Settings</string>
+    <string id="71001">Steam installation folder</string>
+    <string id="71002">Steam username</string>
+    <string id="71003">Steam password</string>
+    <string id="71004">Steam executable not found at %s</string>
+    <string id="71005">Error</string>
+    <string id="72010">Could not activate Steam BPM window</string>
+    <string id="72011">Could not login to Steam, check credentials</string>
+    <string id="72012">Unknown login error</string>
+    <string id="72013">Steam credentials missing</string>
+</strings>
